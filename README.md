@@ -1,4 +1,4 @@
-# Remove-duplicates-in-vec-of-int
+# Vector-Operation
 Write a function that takes a vector of integers as input. The output is the same vector (i.e. the function's return type should be void) where all duplicates are removed.
 
 Example: before: v=[1, 2, 2, 4], after : v=[1, 2, 4]
@@ -19,3 +19,13 @@ concatenating the two input vectors.
 
 Write a function that takes two vectors v1 and v2, and returns a new vector that is the union​ of the values in v1 and v2.
   Example: input: (v1=[1, 2, 3], v2=[3, 4, 5]), output = [3]
+
+Run with
+```
+bazel run src/main:main
+```
+
+Test with
+```
+bazel test tests:tests
+```
